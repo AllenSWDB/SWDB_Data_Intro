@@ -1,3 +1,2 @@
-# aind-capsule-template
+# SWDB Data Intro
 
-Basic structure of a capsule to be customized as needed.
