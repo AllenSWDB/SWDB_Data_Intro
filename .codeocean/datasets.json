@@ -1,0 +1,45 @@
+{
+	"version": 1,
+	"attached_datasets": [
+		{
+			"id": "191ecd4e-43db-450a-9abc-bebbb3fd4ec0",
+			"mount": "ecephys_713655_2024-08-09_10-41-47_nwb_2026-05-18_21-59-59"
+		},
+		{
+			"id": "476412fd-5312-4d5e-ad29-64025b0bc247",
+			"mount": "438833_V1DD_Filtered"
+		},
+		{
+			"id": "4bf7c961-8bf8-42a9-8221-c0185e41d2c5",
+			"mount": "brain-computer-interface-v2"
+		},
+		{
+			"id": "5c06cd1d-a50a-4eab-94bf-f4d7bab7126e",
+			"mount": "ecephys_759434_2025-02-04_12-27-22_nwb_2026-05-18_21-56-27"
+		},
+		{
+			"id": "5d863728-b41a-4715-a631-640540132860",
+			"mount": "ecephys_668755_2023-08-31_12-33-31_nwb_2026-05-18_21-59-03"
+		},
+		{
+			"id": "7469cd5a-046d-4c94-8234-8a6a1c83b73d",
+			"mount": "Neuropixels_Opto_ecephys_nwb_combined"
+		},
+		{
+			"id": "8a5371f5-e2f1-4072-9c07-075b3fae4d13",
+			"mount": "409828_V1DD_Filtered"
+		},
+		{
+			"id": "8ece62d1-3228-4d4d-a842-0df83577f819",
+			"mount": "416296_V1DD_Filtered"
+		},
+		{
+			"id": "989bb861-2d1f-4fc9-9944-21b0d00d3e8c",
+			"mount": "ecephys_664851_2023-11-15_12-38-21_nwb_2026-05-18_21-58-33"
+		},
+		{
+			"id": "dea47e13-3a87-44dd-9517-ed2530d0771b",
+			"mount": "ecephys_742903_2024-10-22_10-58-35_nwb_2026-05-18_22-02-14"
+		}
+	]
+}

@@ -5,5 +5,17 @@
 		"registry_host_arg": true,
 		"git_ask_pass": true,
 		"mount_secrets": true
+	},
+	"installers": {
+		"pip": {
+			"packages": [
+				{
+					"name": "pynwb",
+					"version": "3.1.3"
+				}
+			],
+			"options": {},
+			"pre_install_options": {}
+		}
 	}
 }
