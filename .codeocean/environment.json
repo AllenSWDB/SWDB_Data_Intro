@@ -10,6 +10,10 @@
 		"pip3": {
 			"packages": [
 				{
+					"name": "hdmf-zarr",
+					"version": "0.12.0"
+				},
+				{
 					"name": "matplotlib",
 					"version": "3.10.1"
 				},
