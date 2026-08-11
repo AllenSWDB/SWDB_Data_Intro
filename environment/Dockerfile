@@ -1,4 +1,4 @@
-# hash:sha256:a11ce7b70994ed36371075c3c70d140543c4921a90224281c141a40772f32acd
+# hash:sha256:2c40a96b6f260ceb66865219df7c1431226ab0235799d2bcf92717a73d74ffc8
 ARG REGISTRY_HOST
 FROM $REGISTRY_HOST/codeocean/code-server-python-extensions-pack:code-server4.129.0python3.12.4codeocean-mcp-serveruvpyreflyetc
 
@@ -11,6 +11,7 @@ RUN conda install -y \
     && conda clean -ya
 
 RUN pip3 install -U --no-cache-dir \
+    aind-data-access-api==1.2.1 \
     hdmf-zarr==0.12.0 \
     matplotlib==3.10.1 \
     numpy==2.2.5 \
