@@ -1,4 +1,4 @@
-# hash:sha256:344f89698dda2024b15a9f393280a09fac5daebcb2e0605ce65f02562b4d1358
+# hash:sha256:2c40a96b6f260ceb66865219df7c1431226ab0235799d2bcf92717a73d74ffc8
 ARG REGISTRY_HOST
 FROM $REGISTRY_HOST/codeocean/code-server-python-extensions-pack:code-server4.129.0python3.12.4codeocean-mcp-serveruvpyreflyetc
 
@@ -6,5 +6,14 @@ ARG DEBIAN_FRONTEND=noninteractive
 ARG GIT_ASKPASS
 COPY git-ask-pass /
 
-RUN pip install -U --no-cache-dir \
+RUN conda install -y \
+        jupyterlab==4.6.3 \
+    && conda clean -ya
+
+RUN pip3 install -U --no-cache-dir \
+    aind-data-access-api==1.2.1 \
+    hdmf-zarr==0.12.0 \
+    matplotlib==3.10.1 \
+    numpy==2.2.5 \
+    pandas==2.2.3 \
     pynwb==3.1.3
