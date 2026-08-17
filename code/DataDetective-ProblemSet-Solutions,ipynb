@@ -369,7 +369,7 @@
    "source": [
     "<div style=\"border-left: 3px solid #000; padding: 1px; padding-left: 10px; background: #FFC067; \">\n",
     "\n",
-    "I'm confused what's happening here - maybe if I could access the data folders it would make more sense. Is this something that would be obvious when looking at the /data folder? I'm not familiar with ndx-events or ndx-change-detection-task "
+    "I'm confused what's happening here - I assume this is because the omFISH behavior and neural data still needs to be combined into 1 NWB file. I'm not sure it's necessary to show this as it seems like unnecessary additions that won't apply to the SWDB datasets. "
    ]
   },
   {
@@ -865,6 +865,18 @@
   },
   {
    "cell_type": "markdown",
+   "id": "7ffa7901",
+   "metadata": {},
+   "source": [
+    "<div style=\"border-left: 3px solid #000; padding: 1px; padding-left: 10px; background: #FFC067; \">\n",
+    "\n",
+    "We can cut most of the content in part 1 as it is redundant with the tutorial and the previous group exercise. Keep the ask really simple - reproduce a figure and evaluate the claim and the code could be really simple here. The solution can just be 1 or 2 code blocks showing how to pull out the specific data pieces and generate the figure. I don't think the students need as much guidance on how to unpack and understand the data at this point. \n",
+    "\n",
+    "Also want to reiterate that the data access patterns should reflect what we teach in the tutorial. It seems like different packages and custom functions are being written here for data loading, which I assume is because omFISH isn't in a finalized state yet (?). If there's anything here that generalizes we should teach that in the tutorial. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
    "id": "cc9c2ebe",
    "metadata": {},
    "source": [
@@ -885,6 +897,18 @@
     "in your file. Some of them may not exist in your dataset. That is a finding, not a failure.\n",
     "\n",
     "</div>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "288ca48a",
+   "metadata": {},
+   "source": [
+    "<div style=\"border-left: 3px solid #000; padding: 1px; padding-left: 10px; background: #FFC067; \">\n",
+    "\n",
+    "For the group exercise, should we ask students to generate a figure with averaged activity? Or select single neurons? \n",
+    "\n",
+    "Similar comment to above, I think the solution could be much simplified and doesn't need as much guidance on data access. Maybe reducing this down to a few code cells loading the specific data pieces, shaping the data, and plotting. "
    ]
   },
   {
@@ -1313,6 +1337,16 @@
     "We will build this up one step at a time: one trial, then all trials, then the average.\n",
     "\n",
     "</div>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b0029778",
+   "metadata": {},
+   "source": [
+    "<div style=\"border-left: 3px solid #000; padding: 1px; padding-left: 10px; background: #FFC067; \">\n",
+    "\n",
+    "We don't cover stimulus alignment extensively in the tutorials, so I think this is a good thing to walk through. "
    ]
   },
   {
@@ -1915,6 +1949,16 @@
    "metadata": {},
    "source": [
     "---"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "74625ec5",
+   "metadata": {},
+   "source": [
+    "<div style=\"border-left: 3px solid #000; padding: 1px; padding-left: 10px; background: #FFC067; \">\n",
+    "\n",
+    "The next sections on correlations are useful - this is far too much content for 1 problem set though. Maybe break off the correlation sections into a separate problem set? I worry that means the students won't do it....or maybe we can have them choose which one to do? I know a few students used correlations for their analysis last year and worked off the code, so it's a useful thing to provide. "
    ]
   },
   {
