@@ -1,6 +1,8 @@
 # V1DD README
 
-_README files serve as concise, human-readable description of the contents and structure of a folder and/or dataset. Most importantly, README files are meant to be a resource for YOU!_
+_README files serve as concise, human-readable description of the contents and structure of a folder and/or dataset. Most importantly, these files are meant to be a resource for YOU!_
+
+_This file is written with Markdown formatting for readability; however, you are free to write in plain text._
 
 ## Overview
 
@@ -9,12 +11,14 @@ _Simple description of the dataset, what it contains, and what kinds of question
 
 ### Contacts
 _Record key contacts, both at SWDB and beyond, who are knowledgable about the dataset._
+- ...
 
 ### At a glance
-- _High level numbers or details about the dataset e.g. how many subjects and/or sessions were recorded? how many sessions per subject?_
+_High level numbers or details about the dataset e.g. how many subjects and/or sessions were recorded? How many sessions per subject? Sometimes, this is actually easier to fill out at the end._
+- ...
 
 ## Navigation
-_Provide an overview on how the dataset is organized, such as how the folder directory is structured, file naming conventions, and how to navigate the many data files._
+_Provide an overview on how the dataset is organized, such as how the folder directory is structured (we provided it this time!), file naming conventions, and how to navigate the many data files._
 
 ### Directory structure
 
@@ -30,7 +34,8 @@ data/
 └── # ... 3 other subjects
 ```
 
-The metadata file, `data/metadata/V1DD_metadata.csv` provides curated session-level data for filtering. [!TODO] Add a quick note about how this file was created -- required specifying a query to a database. It contains the following relevant columns
+### Metadata
+The metadata file, `data/metadata/V1DD_metadata.csv` provides curated session-level data for filtering. Remember that this file was created by querying the central database and pulls a filtered set of data files and columns. The current file contains the following relevant columns:
 - <column_name>: <column description, if needed>
 - ...
 
@@ -92,6 +97,7 @@ _The NWB file is the data containing record. It has a lot of internal structure,
 
 ## Opportunities + Limitations
 _Note down any opportunities that this dataset offers, in addition to limitations._
+
 **Opportunities**
 - ...
 
