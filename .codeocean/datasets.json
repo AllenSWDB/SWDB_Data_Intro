@@ -2,6 +2,10 @@
 	"version": 1,
 	"attached_datasets": [
 		{
+			"id": "2e02e089-3c5d-4de6-aa79-6d4723ebb663",
+			"mount": "409828_V1DD_Filtered"
+		},
+		{
 			"id": "476412fd-5312-4d5e-ad29-64025b0bc247",
 			"mount": "438833_V1DD_Filtered"
 		},
@@ -12,10 +16,6 @@
 		{
 			"id": "7469cd5a-046d-4c94-8234-8a6a1c83b73d",
 			"mount": "Neuropixels_Opto_ecephys_nwb_combined"
-		},
-		{
-			"id": "8a5371f5-e2f1-4072-9c07-075b3fae4d13",
-			"mount": "409828_V1DD_Filtered"
 		},
 		{
 			"id": "8ece62d1-3228-4d4d-a842-0df83577f819",
