@@ -2,8 +2,12 @@
 	"version": 1,
 	"attached_datasets": [
 		{
+			"id": "09f21e39-ccae-4091-b917-9436fb3a5db7",
+			"mount": "cell-types-and-learning_coreg-id-mapping-assets-combined_2025-07-06"
+		},
+		{
 			"id": "11816091-581e-472f-ba3e-cc8c21594d15",
-			"mount": "learning_mFISH_nwb_combined"
+			"mount": "cell-types-and-learning-ophys-NWBs"
 		},
 		{
 			"id": "476412fd-5312-4d5e-ad29-64025b0bc247",
