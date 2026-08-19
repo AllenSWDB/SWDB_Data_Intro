@@ -2,6 +2,10 @@
 	"version": 1,
 	"attached_datasets": [
 		{
+			"id": "11816091-581e-472f-ba3e-cc8c21594d15",
+			"mount": "learning_mFISH_nwb_combined"
+		},
+		{
 			"id": "476412fd-5312-4d5e-ad29-64025b0bc247",
 			"mount": "438833_V1DD_Filtered"
 		},
