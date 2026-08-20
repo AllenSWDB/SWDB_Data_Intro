@@ -4,10 +4,14 @@
 		{
 			"id": "2e02e089-3c5d-4de6-aa79-6d4723ebb663",
 			"mount": "409828_V1DD_Filtered"
+    },
+		{
+			"id": "09f21e39-ccae-4091-b917-9436fb3a5db7",
+			"mount": "cell-types-and-learning_coreg-id-mapping-assets-combined_2025-07-06"
 		},
 		{
-			"id": "476412fd-5312-4d5e-ad29-64025b0bc247",
-			"mount": "438833_V1DD_Filtered"
+			"id": "11816091-581e-472f-ba3e-cc8c21594d15",
+			"mount": "cell-types-and-learning-ophys-NWBs"
 		},
 		{
 			"id": "4bf7c961-8bf8-42a9-8221-c0185e41d2c5",
