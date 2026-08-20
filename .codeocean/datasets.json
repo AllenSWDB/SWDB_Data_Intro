@@ -2,10 +2,6 @@
 	"version": 1,
 	"attached_datasets": [
 		{
-			"id": "09f21e39-ccae-4091-b917-9436fb3a5db7",
-			"mount": "cell-types-and-learning_coreg-id-mapping-assets-combined_2025-07-06"
-		},
-		{
 			"id": "11816091-581e-472f-ba3e-cc8c21594d15",
 			"mount": "cell-types-and-learning-ophys-NWBs"
 		},
@@ -16,6 +12,10 @@
 		{
 			"id": "4bf7c961-8bf8-42a9-8221-c0185e41d2c5",
 			"mount": "brain-computer-interface-v2"
+		},
+		{
+			"id": "6efb73c3-ebb9-432d-a225-203759356027",
+			"mount": "multiplane-ophys-behavior-nwb-combined-asset-swdb"
 		},
 		{
 			"id": "7469cd5a-046d-4c94-8234-8a6a1c83b73d",
