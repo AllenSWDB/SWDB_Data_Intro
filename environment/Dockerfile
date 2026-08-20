@@ -16,5 +16,5 @@ RUN pip3 install -U --no-cache-dir \
     matplotlib==3.10.1 \
     numpy==2.2.5 \
     pandas==2.2.3 \
-    pynwb==3.1.3 \
-    scipy
+    pynwb==4.0.0 \
+    scipy==1.11.3
