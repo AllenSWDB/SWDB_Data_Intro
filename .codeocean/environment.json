@@ -40,6 +40,9 @@
 				{
 					"name": "pynwb",
 					"version": "4.0.0"
+				},
+				{
+					"name": "scipy"
 				}
 			],
 			"options": {},

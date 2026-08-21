@@ -1,4 +1,4 @@
-# hash:sha256:ad626e5938910fdb5f821838928a554c3e7d8782cff2777b851b96b0bc5298fa
+# hash:sha256:202b61f027a9d0f37582a0a7201ca7a3a39326b7160680a24cfe8c37db56e211
 ARG REGISTRY_HOST
 FROM $REGISTRY_HOST/codeocean/code-server-python-extensions-pack:code-server4.129.0python3.12.4codeocean-mcp-serveruvpyreflyetc
 
@@ -16,4 +16,5 @@ RUN pip3 install -U --no-cache-dir \
     matplotlib==3.10.1 \
     numpy==2.2.5 \
     pandas==2.2.3 \
-    pynwb==4.0.0
+    pynwb==4.0.0 \
+    scipy
