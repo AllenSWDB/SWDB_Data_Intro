@@ -18,3 +18,4 @@ RUN pip3 install -U --no-cache-dir \
     pandas==2.2.3 \
     pynwb==4.0.0 \
     scipy \
+    anndata \
