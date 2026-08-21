@@ -2,6 +2,14 @@
 	"version": 1,
 	"attached_datasets": [
 		{
+			"id": "17494011-7e38-48ee-931b-6afa364131f3",
+			"mount": "visual_coding_ophys"
+		},
+		{
+			"id": "2e02e089-3c5d-4de6-aa79-6d4723ebb663",
+			"mount": "409828_V1DD_Filtered"
+		},
+		{
 			"id": "476412fd-5312-4d5e-ad29-64025b0bc247",
 			"mount": "438833_V1DD_Filtered"
 		},
@@ -10,12 +18,12 @@
 			"mount": "brain-computer-interface-v2"
 		},
 		{
-			"id": "7469cd5a-046d-4c94-8234-8a6a1c83b73d",
-			"mount": "Neuropixels_Opto_ecephys_nwb_combined"
+			"id": "6efb73c3-ebb9-432d-a225-203759356027",
+			"mount": "Visual-Learning-SWDB"
 		},
 		{
-			"id": "8a5371f5-e2f1-4072-9c07-075b3fae4d13",
-			"mount": "409828_V1DD_Filtered"
+			"id": "7469cd5a-046d-4c94-8234-8a6a1c83b73d",
+			"mount": "Neuropixels_Opto_ecephys_nwb_combined"
 		},
 		{
 			"id": "8ece62d1-3228-4d4d-a842-0df83577f819",
@@ -26,8 +34,12 @@
 			"mount": "dynamicrouting_datacube"
 		},
 		{
-			"id": "a8be7ab6-99ec-4eb3-b28b-6f0c0e98db05",
+			"id": "bc489ad7-96d0-4292-a0f1-3d1ba8bac057",
 			"mount": "427836_V1DD_Filtered"
+		},
+		{
+			"id": "caa3ab37-9fda-460d-8cce-0a43bff6cd7b",
+			"mount": "visual_coding_neuropixels"
 		}
 	]
 }
