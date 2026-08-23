@@ -2,6 +2,10 @@
 	"version": 1,
 	"attached_datasets": [
 		{
+			"id": "17b62829-8f3f-4bc8-8b49-186bec834db5",
+			"mount": "Visual-Learning-Cell-Gene-Tables"
+		},
+		{
 			"id": "476412fd-5312-4d5e-ad29-64025b0bc247",
 			"mount": "438833_V1DD_Filtered"
 		},
@@ -24,6 +28,10 @@
 		{
 			"id": "8ece62d1-3228-4d4d-a842-0df83577f819",
 			"mount": "416296_V1DD_Filtered"
+		},
+		{
+			"id": "9a9d03ce-560f-4ec9-bdb5-8b9f58e79093",
+			"mount": "Visual-Learning-Coreg-Tables"
 		},
 		{
 			"id": "a0a476ca-a855-4c18-a363-c2dcba4d8478",
