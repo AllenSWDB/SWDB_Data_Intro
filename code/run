@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 set -ex
 
-jupyter nbconvert --to notebook --execute code/Tutorial-1a-NWB-Data-Access.ipynb --inplace
+jupyter nbconvert --to notebook --execute /code/Tutorial-1a-NWB-Data-Access.ipynb --inplace
 
