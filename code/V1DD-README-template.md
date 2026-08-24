@@ -61,8 +61,9 @@ _The NWB file is the data containing record. It has a lot of internal structure,
 ## Dataset features
 
 ### Neurophysiological data (`processing/plane-{0..5}/`)
-#### Modality
 - _e.g. what recording modality was used? what are some relevant details about the modality?_
+- _e.g. how many units or ROIs are available? what's the total population size?_
+- _e.g. are the neural responses (QC'd)? if not, what processing or filtering needs to be do?_
 - ...
 
 #### Anatomy
@@ -73,27 +74,16 @@ _The NWB file is the data containing record. It has a lot of internal structure,
 - _e.g. what cell types were recorded? how were they accessed?_
 - ...
 
-#### Responses
-- _e.g. how many units or ROIs are available? what's the total population size?_
-- _e.g. are the neural responses (QC'd)? if not, what processing or filtering needs to be do?_
-- ...
-
-### Stimulus table (`intervals/stimulus_table/`)
-- _e.g. what stimulus conditions were presented? what was the task structure?_
-- _e.g. if multiple stimulus conditions, under what conditions or for what questions should each stimulus condition be analyzed?_
-- ...
-
 ### Behavioral data (`processing/behavior/`)
 - _e.g. what types of behaviors were recorded?_
 - _e.g. are the behavioral responses QC'd? if not, what processing or filtering needs to be done?_
-- ...
+- _e.g. was there any behavior training conducted prior to measurement? if so, what curricular details are important to keep in mind? what were the performance criteria for retention?_ ...
 
-#### History
-- _e.g. was there any behavior training conducted prior to measurement? if so, what curricular details are important to keep in mind? what were the performance criteria for retention?_
+### Stimulus table (`intervals/stimulus_table/`)
+- _e.g. what manipulations / experimental interventions were performed?_
+- _e.g. what stimulus conditions were presented? what was the task structure?_
+- _e.g. if multiple stimulus conditions, under what conditions or for what questions should each stimulus condition be analyzed?_
 - ...
-
-### Manipulations
-- _e.g. what manipulations / experimental interventions were performed?_ ...
 
 ## Opportunities + Limitations
 _Note down any opportunities that this dataset offers, in addition to limitations._
